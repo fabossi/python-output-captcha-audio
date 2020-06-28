@@ -1,17 +1,12 @@
-<h2 align="center">outCaptcha - Solving reCAPTCHA 2.0 Without Human Interaction</h2>
+<h2 align="center">Recaptcha</h2>
 <p align="center"><i>
   <img src="src/solved.png" width="450"/>
 </i></p>
 
-
-<h1 align="center"><a href="https://www.youtube.com/watch?v=lnmtqPam1qg">Watch the outCaptcha extension solve reCAPTCHA 2.0</a></h1>
-
-
-
 ## How to Run
 
 ```console
-foo@bar:~$ chromium-browser --disable-web-security -user-data-dir=~/ & python app.py
+chromium-browser --disable-web-security -user-data-dir=~/ & python app.py
 ```
 
 <p align="center"><b>Note: Starting chrome with cross-origin resource sharing is necessary to interact with the reCAPTCHA iframe.</b></p>
